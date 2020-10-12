@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter,Route} from "react-router-dom";
 import Logo from "./components/Logo";
 import Carousel from "./components/Carousel";
 import Menu from "./components/Menu";
@@ -12,6 +11,7 @@ import News from "./components/News";
 import SinglePost from "./components/SinglePost";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import {BrowserRouter,Route} from "react-router-dom";
 
 function App() {
     return (
@@ -22,9 +22,10 @@ function App() {
            <HumburgerMenu/>
             <Menu/>
             <Logo/>
-            <Carousel/>
-            <Route path="/" render={()=>{
+
+            <Route exact path="/" render={()=>{
                 return <div>
+                    <Carousel/>
                     <CategoriesPost/>
                 </div>
             }}/>
@@ -33,6 +34,7 @@ function App() {
                 return <div>
                     <Recipes/>
                 </div>
+
             }}/>
 
             <Route path="/news" render={()=>{
@@ -46,6 +48,7 @@ function App() {
                     <SinglePost/>
                 </div>
             }}/>
+
 
             <Route path="/about" render={()=>{
                 return <div>
