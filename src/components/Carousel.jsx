@@ -100,7 +100,7 @@ const Carousel = ()=> {
                             <div className="row">
                                 <div className="col-lg-6 p-0">
                                     <div className="hero__inside__item hero__inside__item--wide set-bg"
-                                         style={{backgroundImage:"url(img/hero/hero-1.jpg)"}}>
+                                         style={{backgroundImage:"url(img/hero/hero-5.jpg)"}}>
                                         <div className="hero__inside__item__text">
                                             <div className="hero__inside__item--meta">
                                                 <span>09</span>
@@ -124,7 +124,7 @@ const Carousel = ()=> {
                                 </div>
                                 <div className="col-lg-3 col-md-6 p-0">
                                     <div className="hero__inside__item hero__inside__item--small set-bg"
-                                         style={{backgroundImage:"url(img/hero/hero-3.jpg)"}}>
+                                         style={{backgroundImage:"url(img/hero/hero-6.jpg)"}}>
                                         <div className="hero__inside__item__text">
                                             <div className="hero__inside__item--meta">
                                                 <span>09</span>
@@ -140,7 +140,7 @@ const Carousel = ()=> {
                                         </div>
                                     </div>
                                     <div className="hero__inside__item hero__inside__item--small set-bg"
-                                         style={{backgroundImage:"url(img/hero/hero-2.jpg)"}}>
+                                         style={{backgroundImage:"url(img/hero/hero-7.jpg)"}}>
                                         <div className="hero__inside__item__text">
                                             <div className="hero__inside__item--meta">
                                                 <span>09</span>
@@ -159,7 +159,7 @@ const Carousel = ()=> {
                                 </div>
                                 <div className="col-lg-3 col-md-6 p-0">
                                     <div className="hero__inside__item set-bg"
-                                         style={{backgroundImage:"url(img/hero/hero-4.jpg)"}}>
+                                         style={{backgroundImage:"url(img/hero/hero-8.jpg)"}}>
                                         <div className="hero__inside__item__text">
                                             <div className="hero__inside__item--meta">
                                                 <span>09</span>

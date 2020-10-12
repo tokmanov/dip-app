@@ -9,7 +9,7 @@ const CategoriesPost = ()=> {
                     <div className="col-lg-8 col-md-8">
                         <div className="categories__post__item categories__post__item--large">
                             <div className="categories__post__item__pic set-bg"
-                                 data-setbg="img/categories/categories-post/cp-1.jpg">
+                                 style={{backgroundImage:"url(img/categories/categories-post/cp-1.jpg)"}}>
                                 <div className="post__meta">
                                     <h4>08</h4>
                                     <span>Aug</span>
@@ -45,7 +45,7 @@ const CategoriesPost = ()=> {
                             <div className="col-lg-6 col-md-6 col-sm-6">
                                 <div className="categories__post__item">
                                     <div className="categories__post__item__pic small__item set-bg"
-                                         data-setbg="img/categories/categories-post/cp-2.jpg">
+                                         style={{backgroundImage:"url(img/categories/categories-post/cp-2.jpg)"}}>
                                         <div className="post__meta">
                                             <h4>08</h4>
                                             <span>Aug</span>
@@ -66,7 +66,7 @@ const CategoriesPost = ()=> {
                                 </div>
                                 <div className="categories__post__item">
                                     <div className="categories__post__item__pic set-bg"
-                                         data-setbg="img/categories/categories-post/cp-4.jpg">
+                                         style={{backgroundImage:"url(img/categories/categories-post/cp-4.jpg)"}}>
                                         <div className="post__meta">
                                             <h4>08</h4>
                                             <span>Aug</span>
@@ -89,7 +89,7 @@ const CategoriesPost = ()=> {
                                     </div>
                                 </div>
                                 <div className="categories__post__item__plain set-bg"
-                                     data-setbg="img/categories/categories-post/cp-6.jpg">
+                                     style={{backgroundImage:"url(img/categories/categories-post/cp-6.jpg)"}}>
                                     <div className="categories__post__item__text">
                                         <div className="post__meta">
                                             <h4>08</h4>
@@ -110,7 +110,7 @@ const CategoriesPost = ()=> {
                                 </div>
                                 <div className="categories__post__item">
                                     <div className="categories__post__item__pic smaller__large set-bg"
-                                         data-setbg="img/categories/categories-post/cp-8.jpg">
+                                         style={{backgroundImage:"url(img/categories/categories-post/cp-8.jpg)"}}>
                                         <div className="post__meta">
                                             <h4>08</h4>
                                             <span>Aug</span>
@@ -134,7 +134,7 @@ const CategoriesPost = ()=> {
                             <div className="col-lg-6 col-md-6 col-sm-6">
                                 <div className="categories__post__item">
                                     <div className="categories__post__item__pic smaller__large set-bg"
-                                         data-setbg="img/categories/categories-post/cp-3.jpg">
+                                         style={{backgroundImage:"url(img/categories/categories-post/cp-3.jpg)"}}>
                                         <div className="post__meta">
                                             <h4>08</h4>
                                             <span>Aug</span>
@@ -162,7 +162,7 @@ const CategoriesPost = ()=> {
                                 </div>
                                 <div className="categories__post__item">
                                     <div className="categories__post__item__pic smaller__large set-bg"
-                                         data-setbg="img/categories/categories-post/cp-5.jpg">
+                                         style={{backgroundImage:"url(img/categories/categories-post/cp-5.jpg)"}}>
                                         <div className="post__meta">
                                             <h4>08</h4>
                                             <span>Aug</span>
@@ -183,7 +183,7 @@ const CategoriesPost = ()=> {
                                 </div>
                                 <div className="categories__post__item">
                                     <div className="categories__post__item__pic set-bg"
-                                         data-setbg="img/categories/categories-post/cp-7.jpg">
+                                         style={{backgroundImage:"url(img/categories/categories-post/cp-7.jpg)"}}>
                                         <div className="post__meta">
                                             <h4>08</h4>
                                             <span>Aug</span>
@@ -242,7 +242,7 @@ const CategoriesPost = ()=> {
                                     <h6>Feature Posts</h6>
                                 </div>
                                 <div className="sidebar__feature__item__large set-bg"
-                                     data-setbg="img/sidebar/feature-post.jpg">
+                                     style={{backgroundImage:"url(img/sidebar/feature-post.jpg)"}}>
                                     <div className="sidebar__feature__item__large--text">
                                         <span>Dinner</span>
                                         <h5><a href="#">This Japanese Way of Making Iced Coffee Is a Game...</a></h5>
