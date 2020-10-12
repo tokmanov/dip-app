@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function CategoriesPost () {
+const CategoriesPost = ()=> {
     return (
         <div className="categories__post">
             <div className="container">

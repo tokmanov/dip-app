@@ -3,7 +3,7 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
-function Carousel () {
+const Carousel = ()=> {
     return (
         <OwlCarousel className="owl-theme"
                      nav
@@ -11,8 +11,7 @@ function Carousel () {
                      autoplay
                      loop
         >
-            <section className="hero">
-                <div className="hero__slider" >
+
                     <div className="hero__item">
                         <div className="container-fluid">
                             <div className="row">
@@ -179,8 +178,7 @@ function Carousel () {
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+
         </OwlCarousel>
     );
 }

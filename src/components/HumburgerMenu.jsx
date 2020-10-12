@@ -1,9 +1,9 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 
-function HumburgerMenu () {
+const HumburgerMenu = ()=> {
     return (
-        <div>
+              <div>
             <div className="humberger__menu__overlay"></div>
             <div className="humberger__menu__wrapper">
                 <div className="humberger__menu__logo">
@@ -52,6 +52,7 @@ function HumburgerMenu () {
                 </div>
             </div>
         </div>
+
     );
     }
 export default HumburgerMenu;

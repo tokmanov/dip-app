@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function CategoriesSpad () {
+const CategoriesSpad = ()=> {
     return (
         <section className="categories spad">
             <div className="container">

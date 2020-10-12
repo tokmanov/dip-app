@@ -1,7 +1,6 @@
 import React from 'react';
-import NavLink from "react-router-dom/modules/NavLink";
 
-function Logo () {
+const Logo = ()=> {
     return (
         <div class="container">
             <div class="row">
@@ -16,7 +15,7 @@ function Logo () {
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="header__logo">
-                        <NavLink to="/"><img src="img/logo.png" alt=""/></NavLink>
+                        <a href="./index.html"><img src="img/logo.png" alt=""/></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3">

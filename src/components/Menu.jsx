@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 
-function Menu () {
+const Menu = ()=> {
     return (
             <div className="header__top">
                 <div className="container">
@@ -14,7 +14,7 @@ function Menu () {
                         <div className="col-lg-8 col-md-10 order-md-2 order-3">
                             <nav className="header__menu">
                                 <ul>
-                                    <li><NavLink to="/">Главная</NavLink></li>
+                                    <li><NavLink to="">Главная</NavLink></li>
                                     <li><NavLink to="/recipes">Рецепты</NavLink>
                                         <div className="header__megamenu__wrapper">
                                             <div className="header__megamenu">
